@@ -1,0 +1,46 @@
+html {
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+    background-color: rgb(49, 102, 163);
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #FF9500; 
+    /* background-color: black;*/
+    padding: 0 20px 20px 20px;
+    border: 10px solid black;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 60px;
+    text-shadow: 3px 3px 1px black;
+    color: #00539F;
+}
+
+img {
+    /* Turn images into block elements instead of inline elements, so they take up the entire width
+    and can have margins */
+    display: block;
+    margin: 0 auto;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.leeds-yellow {
+    color:#FFCD00;
+}
+
+.leeds-blue {
+    color:#1D428A;
+}
+
+/* Comment in a css file */
